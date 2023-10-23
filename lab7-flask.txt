@@ -1,21 +1,44 @@
 Question 0: What is the URL of your python flask_restfull code on github???
+https://github.com/RahulKorde19/CMPUT404-Lab7-Flask
 
 Question 1: How are Flask and Django different? What does Django provide for you that Flask does not?
+-Flask supports one single application while Django allows developers to divide a project into multiple
+page application. Django provdes a MVC framework while microframework Flask does not. Django offers dynamic
+HTML pages while Flask doesnt. Dango has a built on ORM while Flask doesnt Django has the functions of authorization 
+and authentication built in.
 
 
 Question 2: What does REST stand for? When I say something is RESTful, what does that mean?
+-REST stands for Representational State Transfer. RESTful means that API is designed to take advantage of 
+HTTP protocols. RESTful web services are stateless. RESTful web service is a web service
+that is implemented  using HTTP and principles of REST. 
+It is a collection of resources with 4 defined aspects:  the base URI for the web service, the 
+Internet media type of the data supported by the web service, the set of operations supported by the 
+web service using HTTP methods (e.g., POST, GET, PUT or DELETE), and the API must be hypertext driven.
 
 
 Question 3: What does CRUD stand for? For each letter in CRUD, give the associated HTTP method.
-
+-CRUD stands for create, read, update, DELETE.
+Create - POST
+Read - GET
+Update - PUT
+Delete - Delete
 
 Question 4: What do HTTP 1XX Status Codes mean? HTTP 2xx? HTTP 3xx? HTTP 4xx? HTTP 5xx?
+1XX - Informational 
+2XX - Success
+3XX - Redirection
+4XX - Client Error
+5XX - Server Error
 
 
 Question 5: What is an XSS attack? Provide one way a site can be vulneratble to an XSS attack.
-
+XSS attack is where a hacker injects malicious code into a website. 
+Atackers initate an XSS attact by sending a malicious link and enticing the user to click it
 
 Question 6: What does CORS stand for? What situation in web application development will you need to implement CORS protection?
-
+CORS stands for Cross-Origin Resource Sharing. 
+It enables  controlled access to resouces located outside of a given domain. It extends and adds flexibility to the dame origin policy(SOP)
 
 Hint: What does the CO part of CORS mean?
+Cross-Origin
